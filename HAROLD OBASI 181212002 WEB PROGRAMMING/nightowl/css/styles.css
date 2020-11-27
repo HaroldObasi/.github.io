@@ -1,0 +1,1118 @@
+/* body{
+    margin: 0;
+
+}
+
+#header{
+    text-align: center;
+    height: auto;
+    width: 100%;
+
+    
+}
+.owl-head{
+    padding-top: 0;
+
+}
+
+#navBody{
+    
+
+}
+
+.bar{
+margin-left: 25%;
+}
+
+#navBody a{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+#top{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+
+}
+
+#top h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 100px;
+
+}
+
+#top h4{
+    font-size: 20px ;
+    padding-bottom: 15px;
+
+}
+
+button{
+    border-radius: 100%;
+}
+
+nav{
+
+}
+
+li{
+    float: left;
+}
+.rounded{
+    width: 250px;
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: black;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  .first {
+    height: 100vh;
+    width: 100vw;
+    background: url("../html/slider/slider.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .first h1 {
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    margin-top: 140px;
+  }
+  
+  .first h2 {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-family: "Roboto";
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 2.5px;
+    margin-top: 15px;
+  }
+  
+  .first .work {
+    border: 0;
+    outline: 0;
+    padding: 12px 30px;
+    background: #2176FF;
+    border-radius: 50px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+    margin-top: 35px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  .first .work:hover {
+    background: #1A71FF;
+  }
+  
+  .services {
+    width: 100vw;
+    height: auto;
+    background: url("../html/tech.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-family: "Saira Extra Condensed";
+    font-weight: 600;
+    font-size: 84px;
+    line-height: 117px;
+    color: #FFFFFF;
+    margin-top: -10px;
+  }
+  
+  .services h5 {
+    font-family: "Saira Extra Condensed";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: -10px;
+  }
+  
+  .services a {
+    text-decoration: none;
+    color: white;
+    font-size: 75px;
+    padding: 30px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  .services .service-windows {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /*ROW ONE*/
+    /*ROW TWO*/
+  }
+  
+  .services .service-windows .first-row {
+    padding-top: 50px;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  
+  .services .service-windows .first-row .box1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 370px;
+    height: 230px;
+    border-radius: 3px 3px 3px 3px;
+    background: #32C7B0;
+  }
+  
+  .services .service-windows .first-row .box1 h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+  }
+  
+  .services .service-windows .first-row .box1 p {
+    font-family: "Saira Extra Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 10px;
+  }
+  
+  .services .service-windows .first-row .box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 370px;
+    height: 230px;
+    border-radius: 3px 3px 3px 3px;
+    background: #FB7A68;
+  }
+  
+  .services .service-windows .first-row .box2 h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+  }
+  
+  .services .service-windows .first-row .box2 p {
+    font-family: "Saira Extra Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 10px;
+  }
+  
+  .services .service-windows .first-row .box3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 370px;
+    height: 230px;
+    border-radius: 3px 3px 3px 3px;
+    background: #329BC2;
+  }
+  
+  .services .service-windows .first-row .box3 h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+  }
+  
+  .services .service-windows .first-row .box3 p {
+    font-family: "Saira Extra Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 10px;
+  }
+  
+  .services .service-windows .second-row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  
+  .services .service-windows .second-row .box4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 370px;
+    height: 230px;
+    border-radius: 3px 3px 3px 3px;
+    background: #C83F43;
+  }
+  
+  .services .service-windows .second-row .box4 h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+  }
+  
+  .services .service-windows .second-row .box4 p {
+    font-family: "Saira Extra Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 10px;
+  }
+  
+  .services .service-windows .second-row .box5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 370px;
+    height: 230px;
+    border-radius: 3px 3px 3px 3px;
+    background: #A96EB7;
+  }
+  
+  .services .service-windows .second-row .box5 h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+  }
+  
+  .services .service-windows .second-row .box5 p {
+    font-family: "Saira Extra Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 10px;
+  }
+  
+  .services .service-windows .second-row .box6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 370px;
+    height: 230px;
+    border-radius: 3px 3px 3px 3px;
+    background: #BE8865;
+  }
+  
+  .services .service-windows .second-row .box6 h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+  }
+  
+  .services .service-windows .second-row .box6 p {
+    font-family: "Saira Extra Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 10px;
+  }
+  
+  .Apps {
+    width: 100vw;
+    height: auto;
+    background: url("../html/apps.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .Apps .container-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 50px;
+  }
+  
+  .Apps h2 {
+    font-family: "Saira Extra Condensed";
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70px;
+    color: #FFFFFF;
+    padding-top: 20px;
+  }
+  
+  .Apps P {
+    font-family: "Saira Extra Condensed";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    letter-spacing: 3px;
+  }
+  
+  .Apps .play-button {
+    border: 0;
+    outline: 0;
+    padding: 12px 30px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #1F1F27;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.5px;
+    margin-top: 35px;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  .Apps .play-button:hover {
+    background: #2176FF;
+    color: white;
+  }
+  
+  .Apps .appstore {
+    border: 0;
+    outline: 0;
+    padding: 12px 30px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #1F1F27;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+    margin: 10px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  .Apps .appstore:hover {
+    background: #2176FF;
+    color: white;
+  }
+  
+  .Apps a {
+    text-decoration: none;
+    color: white;
+    font-size: 75px;
+    padding: 30px;
+    padding-top: 100px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  .Products {
+    background: #FFFFFF;
+    width: 100vw;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /*SLIDER CODE*/
+  }
+  
+  .Products img {
+    padding-top: 30px;
+  }
+  
+  .Products h2 {
+    font-family: "Saira Extra Condensed";
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    color: #252933;
+    letter-spacing: 2px;
+    padding-top: 30px;
+  }
+  
+  .Products .slider {
+    width: 80%;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    /*SLIDER COLUMN 2*/
+  }
+  
+  .Products .slider figure {
+    position: relative;
+    height: 320%;
+    margin: 0;
+    top: 0;
+    -webkit-animation: 15s slidy infinite;
+            animation: 15s slidy infinite;
+  }
+  
+  @-webkit-keyframes slidy {
+    0% {
+      top: 0%;
+    }
+    48% {
+      top: 0%;
+    }
+    50% {
+      top: -100%;
+    }
+    98% {
+      top: -100%;
+    }
+    100% {
+      top: -200%;
+    }
+  }
+  
+  @keyframes slidy {
+    0% {
+      top: 0%;
+    }
+    48% {
+      top: 0%;
+    }
+    50% {
+      top: -100%;
+    }
+    98% {
+      top: -100%;
+    }
+    100% {
+      top: -200%;
+    }
+  }
+  
+  .Products .slider .first-slider {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .Products .slider .first-slider .slide_1,
+  .Products .slider .first-slider .slide_2,
+  .Products .slider .first-slider .slide_3 {
+    height: 100%;
+    width: 350px;
+  }
+  
+  .Products .slider .first-slider .slide_1 {
+    background: url("../html/Cap.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  .Products .slider .first-slider .slide_2 {
+    background: url("../html/merch.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+  }
+  
+  .Products .slider .first-slider .slide_3 {
+    background: url("../html/flash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  .Products .slider .first-slider .overlay {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+  }
+  
+  .Products .slider .first-slider .overlay p {
+    color: #FFFFFF;
+    font-family: "Saira Extra Condensed";
+    font-weight: 500;
+  }
+  
+  .Products .slider .first-slider .overlay h2 {
+    color: #FFFFFF;
+    font-family: "Saira Extra Condensed";
+    font-weight: 600;
+  }
+  
+  .Products .slider .first-slider .slide_1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .slider .first-slider .slide_2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .slider .first-slider .slide_3:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .slider .first-slider .slide_4:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .slider .first-slider .slide_5:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .slider .first-slider .slide_6:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .slider .second-slider {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .Products .slider .second-slider .slide_4,
+  .Products .slider .second-slider .slide_5,
+  .Products .slider .second-slider .slide_6 {
+    height: 100%;
+    width: 350px;
+  }
+  
+  .Products .slider .second-slider .slide_4 {
+    background: url("../html/lappy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  .Products .slider .second-slider .slide_5 {
+    background: url("../html/sneak.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+  }
+  
+  .Products .slider .second-slider .slide_6 {
+    background: url("../html/stat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  .Products .slider .second-slider .overlay {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+  }
+  
+  .Products .slider .second-slider .overlay p {
+    color: #FFFFFF;
+    font-family: "Saira Extra Condensed";
+    font-weight: 500;
+  }
+  
+  .Products .slider .second-slider .overlay h2 {
+    color: #FFFFFF;
+    font-family: "Saira Extra Condensed";
+    font-weight: 600;
+  }
+  
+  .Products .slider .second-slider .slide_1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .slider .second-slider .slide_2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .slider .second-slider .slide_3:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .slider .second-slider .slide_4:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .slider .second-slider .slide_5:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .slider .second-slider .slide_6:hover .overlay {
+    opacity: 1;
+  }
+  
+  .Products .store {
+    border: 0;
+    outline: 0;
+    padding: 12px 30px;
+    background: #2176FF;
+    border-radius: 50px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  .Products .store:hover {
+    background: #1A71FF;
+  }
+  
+  .contact {
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 50px;
+    background: url("../html/contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .contact h2 {
+    font-family: "Saira Extra Condensed";
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 117px;
+    color: #FFFFFF;
+  }
+  
+  .contact p {
+    font-family: "Saira Extra Condensed";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+  }
+  
+  .contact button {
+    border: 0;
+    outline: 0;
+    padding: 12px 30px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #1F1F27;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+    margin-top: 30px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  .contact button:hover {
+    background: #2176FF;
+    color: white;
+  }
+  
+  .totop {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 6px 20px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 6px 20px 0px rgba(0, 0, 0, 0.1);
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+    position: fixed;
+    top: 80%;
+    left: 90%;
+    background: rgba(0, 0, 0, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+  
+  .totop:hover {
+    background: rgba(0, 0, 0, 0.95);
+    color: rgba(255, 255, 255, 0.95);
+  }
+  /*# sourceMappingURL=styles.css.map */
+  
+  
+  
+  
+  
+  
+  
+  /*SCROLLBAR*/
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #2176FF;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1A71FF;
+  }
+  /*# sourceMappingURL=scrollbar.styles.css.map */
+  
+  
+  
+  
+  
+  
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+    width: 100vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  nav ul {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li .act {
+    font-weight: 500;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #EDEDED;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 10px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #2176FF;
+  }
+  
+  nav ul li .act:hover {
+    color: #EDEDED;
+  }
+  /*# sourceMappingURL=header.styles.css.map */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  footer {
+    background: #282A2B;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100vw;
+  }
+  
+  footer .copy {
+    padding: 30px;
+    margin-left: 50px;
+  }
+  
+  footer .copy p {
+    font-family: "Saira Extra Condensed";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #D8D8D8;
+  }
+  
+  footer .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 80px;
+  }
+  
+  footer .socials .socialbuttons {
+    height: 40px;
+    width: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: white;
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  footer .socials .socialbuttons p {
+    color: #2176FF;
+  }
+  
+  footer .socials .socialbuttons:hover {
+    background: #EDEDED;
+  }
+  /*# sourceMappingURL=footer.styles.css.map */

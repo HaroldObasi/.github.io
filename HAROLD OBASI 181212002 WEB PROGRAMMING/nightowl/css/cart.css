@@ -1,0 +1,118 @@
+
+nav {
+  background-color:  black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  width: 100vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li .act {
+  font-weight: 500;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #EDEDED;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 10px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #2176FF;
+}
+
+nav ul li .act:hover {
+  color: #EDEDED;
+}
+
+ * {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Agency FB;
+  src: url("http://allfont.net/download/agency-fb/");
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  color: white;
+  font-family: "Agency FB";
+}
+
+  
+
+ .footer {
+  height: 20vh;
+  background-color: #333333;
+}
+div.ftcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+p.fttext {
+  margin: 0;
+  padding-top: 7vh;
+  width: 40%;
+}
+.ftimg {
+  padding-top: 3vh;
+  width: auto;
+  height: 10vh;
+}
+div.ftimg {
+  margin-left: 100vh;
+}
+
+  .stuff {
+    display: flex;
+    flex-direction: row;
+  }
+.shopping-cart{
+  height: 300px;
+}
+.shopping-cart2{
+  padding-top: 100px;
+  display: grid;
+  grid-row-gap: 100px;
+  grid-template-columns: auto auto auto;
+}
